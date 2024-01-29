@@ -1,0 +1,25 @@
+commit1
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   ~/root/Cache/Cache_Data/index-dir/the-real-index
+#	modified:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/main-e0c681de37499aad1437c3d712af4e2a.code
+#	modified:   ~/root/TransportSecurity
+#	new file:   ~/root/User/History/-468e69a/Spop
+#	new file:   ~/root/User/History/-468e69a/entries.json
+#	new file:   ~/root/User/History/-468e69a/f2k2
+#	modified:   ~/root/User/globalStorage/state.vscdb
+#	modified:   ~/root/User/globalStorage/storage.json
+#	modified:   ~/root/User/workspaceStorage/4ff8bec2589fd45deac1a2bb953be8ad/state.vscdb
+#	modified:   ~/root/logs/20240129T144324/network.log
+#	modified:   ~/root/logs/20240129T144324/window1/exthost/vscode.git/Git.log
+#
+# Changes not staged for commit:
+#	modified:   ~/root/logs/20240129T144324/window1/exthost/vscode.git/Git.log
+#
