@@ -1,0 +1,296 @@
+2024-01-29 14:43:26.190 [info] Log level: Info
+2024-01-29 14:43:26.190 [info] Validating found git in: "git"
+2024-01-29 14:43:26.190 [info] Using git "2.34.1" from "git"
+2024-01-29 14:43:50.404 [info] Log level: Info
+2024-01-29 14:43:50.404 [info] Validating found git in: "git"
+2024-01-29 14:43:50.404 [info] Using git "2.34.1" from "git"
+2024-01-29 14:43:50.404 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-29 14:43:50.409 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-01-29 14:43:50.419 [info] Open repository: /root/example2
+2024-01-29 14:43:50.428 [info] > git config --get commit.template [4ms]
+2024-01-29 14:43:50.429 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-29 14:43:50.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-29 14:43:50.437 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-29 14:43:50.444 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-29 14:43:50.448 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-29 14:43:50.451 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-29 14:43:50.455 [info] > git status -z -uall [12ms]
+2024-01-29 14:43:50.467 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-29 14:43:50.475 [info] > git config --get commit.template [7ms]
+2024-01-29 14:43:50.483 [info] > git rev-parse --show-toplevel [9ms]
+2024-01-29 14:43:50.550 [info] > git rev-parse --show-toplevel [64ms]
+2024-01-29 14:43:50.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2024-01-29 14:43:50.571 [info] > git rev-parse --show-toplevel [17ms]
+2024-01-29 14:43:50.581 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-29 14:43:50.585 [info] > git status -z -uall [5ms]
+2024-01-29 14:43:50.593 [info] > git rev-parse --show-toplevel [9ms]
+2024-01-29 14:43:50.598 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-29 14:43:50.974 [info] > git check-ignore -v -z --stdin [1ms]
+2024-01-29 14:43:52.150 [info] > git check-ignore -v -z --stdin [3ms]
+2024-01-29 14:43:52.965 [info] > git config --get commit.template [4ms]
+2024-01-29 14:43:52.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:43:52.973 [info] > git status -z -uall [3ms]
+2024-01-29 14:43:57.986 [info] > git config --get commit.template [4ms]
+2024-01-29 14:43:57.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:43:57.993 [info] > git status -z -uall [3ms]
+2024-01-29 14:43:59.092 [info] > git show --textconv :README.md [5ms]
+2024-01-29 14:43:59.157 [info] > git ls-files --stage -- /root/example2/README.md [66ms]
+2024-01-29 14:43:59.164 [info] > git cat-file -s 7db80e4ca1bf849701dce58a63f09a102cb9f931 [3ms]
+2024-01-29 14:44:01.510 [info] > git show --textconv :Rails_test.pem [3ms]
+2024-01-29 14:44:01.511 [info] > git ls-files --stage -- /root/example2/Rails_test.pem [1ms]
+2024-01-29 14:44:01.514 [info] > git cat-file -s 07ed9e614a9333e7ce784947c408418c3619ee8e [1ms]
+2024-01-29 14:44:03.007 [info] > git config --get commit.template [4ms]
+2024-01-29 14:44:03.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-29 14:44:03.015 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:03.403 [info] > git show --textconv :Rakefile [3ms]
+2024-01-29 14:44:03.403 [info] > git ls-files --stage -- /root/example2/Rakefile [1ms]
+2024-01-29 14:44:03.407 [info] > git cat-file -s 9a5ea7383aa83eec12490380a7391d1bb93eeb96 [2ms]
+2024-01-29 14:44:05.075 [info] > git show --textconv :.dockerignore [4ms]
+2024-01-29 14:44:05.076 [info] > git ls-files --stage -- /root/example2/.dockerignore [2ms]
+2024-01-29 14:44:05.079 [info] > git cat-file -s e1ff3ec8149393e26f0ce2d5174435883554cbcf [1ms]
+2024-01-29 14:44:08.031 [info] > git config --get commit.template [5ms]
+2024-01-29 14:44:08.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:44:08.039 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:12.287 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-01-29 14:44:12.294 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-01-29 14:44:12.783 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-29 14:44:13.053 [info] > git config --get commit.template [4ms]
+2024-01-29 14:44:13.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:13.062 [info] > git status -z -uall [4ms]
+2024-01-29 14:44:18.078 [info] > git config --get commit.template [8ms]
+2024-01-29 14:44:18.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-01-29 14:44:18.092 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:20.533 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-29 14:44:23.106 [info] > git config --get commit.template [4ms]
+2024-01-29 14:44:23.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:23.121 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:28.135 [info] > git config --get commit.template [4ms]
+2024-01-29 14:44:28.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:28.142 [info] > git status -z -uall [2ms]
+2024-01-29 14:44:33.161 [info] > git config --get commit.template [5ms]
+2024-01-29 14:44:33.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:33.177 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:38.192 [info] > git config --get commit.template [4ms]
+2024-01-29 14:44:38.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:44:38.199 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:43.065 [info] > git show --textconv HEAD:Dockerfile [19ms]
+2024-01-29 14:44:43.065 [info] > git show --textconv :Dockerfile [12ms]
+2024-01-29 14:44:43.065 [info] > git ls-tree -l HEAD -- /root/example2/Dockerfile [7ms]
+2024-01-29 14:44:43.067 [info] > git ls-files --stage -- /root/example2/Dockerfile [3ms]
+2024-01-29 14:44:43.075 [info] > git cat-file -s 406772a6cc097798ea9b29fe36f49dccbbfc92c0 [2ms]
+2024-01-29 14:44:43.214 [info] > git config --get commit.template [5ms]
+2024-01-29 14:44:43.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:43.222 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:43.580 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-29 14:44:48.237 [info] > git config --get commit.template [4ms]
+2024-01-29 14:44:48.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:48.245 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:53.257 [info] > git config --get commit.template [4ms]
+2024-01-29 14:44:53.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:53.265 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:54.303 [info] > git -c user.useConfigOnly=true commit --quiet [3ms]
+2024-01-29 14:44:54.303 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-01-29 14:44:54.312 [info] > git config --get-all user.name [2ms]
+2024-01-29 14:44:54.327 [info] > git config --get commit.template [7ms]
+2024-01-29 14:44:54.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-29 14:44:54.337 [info] > git status -z -uall [4ms]
+2024-01-29 14:44:58.301 [info] > git config --get commit.template [9ms]
+2024-01-29 14:44:58.302 [info] > git ls-tree -l HEAD -- /root/example2/Dockerfile [15ms]
+2024-01-29 14:44:58.303 [info] > git ls-files --stage -- /root/example2/Dockerfile [4ms]
+2024-01-29 14:44:58.315 [info] > git cat-file -s 406772a6cc097798ea9b29fe36f49dccbbfc92c0 [7ms]
+2024-01-29 14:44:58.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:44:58.324 [info] > git status -z -uall [3ms]
+2024-01-29 14:44:58.355 [info] > git ls-files --stage -- /root/example2/Dockerfile [1ms]
+2024-01-29 14:44:58.357 [info] > git ls-tree -l HEAD -- /root/example2/Dockerfile [8ms]
+2024-01-29 14:44:58.367 [info] > git show --textconv HEAD:Dockerfile [5ms]
+2024-01-29 14:44:58.367 [info] > git show --textconv :Dockerfile [2ms]
+2024-01-29 14:44:58.368 [info] > git cat-file -s 406772a6cc097798ea9b29fe36f49dccbbfc92c0 [11ms]
+2024-01-29 14:44:58.375 [info] > git show --textconv HEAD:Dockerfile [2ms]
+2024-01-29 14:44:58.396 [info] > git show --textconv :Dockerfile [2ms]
+2024-01-29 14:45:03.336 [info] > git config --get commit.template [3ms]
+2024-01-29 14:45:03.337 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:45:03.343 [info] > git status -z -uall [3ms]
+2024-01-29 14:45:08.858 [info] > git config --get commit.template [5ms]
+2024-01-29 14:45:08.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:45:08.865 [info] > git status -z -uall [3ms]
+2024-01-29 14:45:15.694 [info] > git config --get commit.template [3ms]
+2024-01-29 14:45:15.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:45:15.701 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:06.356 [info] > git ls-tree -l HEAD -- /root/example2/Dockerfile [10ms]
+2024-01-29 14:47:06.357 [info] > git config --get commit.template [3ms]
+2024-01-29 14:47:06.358 [info] > git ls-files --stage -- /root/example2/Dockerfile [9ms]
+2024-01-29 14:47:06.372 [info] > git cat-file -s 406772a6cc097798ea9b29fe36f49dccbbfc92c0 [9ms]
+2024-01-29 14:47:06.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-01-29 14:47:06.387 [info] > git status -z -uall [4ms]
+2024-01-29 14:47:11.403 [info] > git config --get commit.template [4ms]
+2024-01-29 14:47:11.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:47:11.410 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:12.441 [info] > git show --textconv :Dockerfile [4ms]
+2024-01-29 14:47:12.442 [info] > git ls-files --stage -- /root/example2/Dockerfile [1ms]
+2024-01-29 14:47:12.445 [info] > git cat-file -s 406772a6cc097798ea9b29fe36f49dccbbfc92c0 [1ms]
+2024-01-29 14:47:16.422 [info] > git config --get commit.template [4ms]
+2024-01-29 14:47:16.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:47:16.429 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:21.441 [info] > git config --get commit.template [3ms]
+2024-01-29 14:47:21.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:47:21.448 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:26.461 [info] > git config --get commit.template [3ms]
+2024-01-29 14:47:26.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:47:26.468 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:31.481 [info] > git config --get commit.template [4ms]
+2024-01-29 14:47:31.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:47:31.489 [info] > git status -z -uall [2ms]
+2024-01-29 14:47:36.501 [info] > git config --get commit.template [5ms]
+2024-01-29 14:47:36.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:47:36.508 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:41.523 [info] > git config --get commit.template [4ms]
+2024-01-29 14:47:41.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:47:41.531 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:46.543 [info] > git config --get commit.template [3ms]
+2024-01-29 14:47:46.544 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:47:46.550 [info] > git status -z -uall [2ms]
+2024-01-29 14:47:51.560 [info] > git config --get commit.template [4ms]
+2024-01-29 14:47:51.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:47:51.566 [info] > git status -z -uall [3ms]
+2024-01-29 14:47:54.828 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-29 14:47:56.578 [info] > git config --get commit.template [4ms]
+2024-01-29 14:47:56.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:47:56.585 [info] > git status -z -uall [3ms]
+2024-01-29 14:48:01.598 [info] > git config --get commit.template [4ms]
+2024-01-29 14:48:01.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:48:01.605 [info] > git status -z -uall [3ms]
+2024-01-29 14:48:04.852 [info] > git show --textconv :Rails_test.pem [3ms]
+2024-01-29 14:48:04.853 [info] > git ls-files --stage -- /root/example2/Rails_test.pem [2ms]
+2024-01-29 14:48:04.856 [info] > git cat-file -s 07ed9e614a9333e7ce784947c408418c3619ee8e [1ms]
+2024-01-29 14:48:06.618 [info] > git config --get commit.template [3ms]
+2024-01-29 14:48:06.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:48:06.624 [info] > git status -z -uall [2ms]
+2024-01-29 14:48:08.432 [info] > git show --textconv :config/environments/production.rb [3ms]
+2024-01-29 14:48:08.433 [info] > git ls-files --stage -- /root/example2/config/environments/production.rb [1ms]
+2024-01-29 14:48:08.436 [info] > git cat-file -s 766e72e9658cc19500e6b6a0723378a85497d877 [1ms]
+2024-01-29 14:48:08.717 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-29 14:48:11.636 [info] > git config --get commit.template [3ms]
+2024-01-29 14:48:11.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:48:11.642 [info] > git status -z -uall [2ms]
+2024-01-29 14:48:17.705 [info] > git config --get commit.template [4ms]
+2024-01-29 14:48:17.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:48:17.712 [info] > git status -z -uall [2ms]
+2024-01-29 14:48:24.894 [info] > git config --get commit.template [4ms]
+2024-01-29 14:48:24.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:48:24.902 [info] > git status -z -uall [3ms]
+2024-01-29 14:48:26.979 [info] > git -c user.useConfigOnly=true commit --quiet [4ms]
+2024-01-29 14:48:26.979 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-01-29 14:48:26.987 [info] > git config --get-all user.name [2ms]
+2024-01-29 14:48:26.999 [info] > git config --get commit.template [6ms]
+2024-01-29 14:48:27.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:48:27.011 [info] > git status -z -uall [5ms]
+2024-01-29 14:48:34.807 [info] > git config --get commit.template [7ms]
+2024-01-29 14:48:34.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:48:34.822 [info] > git status -z -uall [6ms]
+2024-01-29 14:48:39.838 [info] > git config --get commit.template [4ms]
+2024-01-29 14:48:39.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:48:39.846 [info] > git status -z -uall [3ms]
+2024-01-29 14:48:44.858 [info] > git config --get commit.template [3ms]
+2024-01-29 14:48:44.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:48:44.866 [info] > git status -z -uall [3ms]
+2024-01-29 14:51:56.681 [info] > git config --get commit.template [8ms]
+2024-01-29 14:51:56.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:51:56.696 [info] > git status -z -uall [4ms]
+2024-01-29 14:52:01.714 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:01.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:01.722 [info] > git status -z -uall [3ms]
+2024-01-29 14:52:04.378 [info] > git -c user.useConfigOnly=true commit --quiet [2ms]
+2024-01-29 14:52:04.378 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-01-29 14:52:04.382 [info] > git config --get-all user.name [1ms]
+2024-01-29 14:52:04.391 [info] > git config --get commit.template [5ms]
+2024-01-29 14:52:04.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:04.398 [info] > git status -z -uall [2ms]
+2024-01-29 14:52:08.664 [info] > git config --get commit.template [1ms]
+2024-01-29 14:52:08.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:08.678 [info] > git status -z -uall [3ms]
+2024-01-29 14:52:11.040 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:11.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:52:11.047 [info] > git status -z -uall [3ms]
+2024-01-29 14:52:11.078 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-01-29 14:52:11.083 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-01-29 14:52:13.748 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-29 14:52:14.494 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:14.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:14.503 [info] > git status -z -uall [3ms]
+2024-01-29 14:52:17.538 [info] > git check-ignore -v -z --stdin [1ms]
+2024-01-29 14:52:19.058 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-29 14:52:19.517 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:19.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:19.526 [info] > git status -z -uall [2ms]
+2024-01-29 14:52:21.446 [info] > git -c user.useConfigOnly=true commit --quiet [3ms]
+2024-01-29 14:52:21.446 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-01-29 14:52:21.451 [info] > git config --get-all user.name [2ms]
+2024-01-29 14:52:21.459 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:21.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:21.466 [info] > git status -z -uall [3ms]
+2024-01-29 14:52:24.538 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:24.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:24.548 [info] > git status -z -uall [4ms]
+2024-01-29 14:52:29.562 [info] > git config --get commit.template [3ms]
+2024-01-29 14:52:29.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:52:29.570 [info] > git status -z -uall [3ms]
+2024-01-29 14:52:35.009 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:35.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-01-29 14:52:35.015 [info] > git status -z -uall [2ms]
+2024-01-29 14:52:46.528 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:46.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:46.535 [info] > git status -z -uall [2ms]
+2024-01-29 14:52:51.548 [info] > git config --get commit.template [4ms]
+2024-01-29 14:52:51.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:52:51.555 [info] > git status -z -uall [3ms]
+2024-01-29 14:53:17.911 [info] > git config --get commit.template [4ms]
+2024-01-29 14:53:17.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-29 14:53:17.918 [info] > git status -z -uall [3ms]
