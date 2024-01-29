@@ -1,0 +1,266 @@
+main commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   Dockerfile
+#	new file:   Rails_test.pem
+#	modified:   config/environments/production.rb
+#	new file:   ~/root/Cache/Cache_Data/a97c96d98c7c4739_0
+#	new file:   ~/root/Cache/Cache_Data/d121e2a6335b7510_0
+#	new file:   ~/root/Cache/Cache_Data/index
+#	new file:   ~/root/Cache/Cache_Data/index-dir/the-real-index
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/addon-unicode11-c74732c7180073263cef0ef7d480137b.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/agent-399aa5bf38c40e30c291820171d15fb8.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/agent-98336437a23ebf869e8922b9e1d1cb43.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/applicationinsights-core-js-f4ed92be12cf6d0c25d2737a1076b004.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/applicationinsights-shims-565ce56b10d433bbc13dfba982a61f19.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/bindings-3cf4fdf983a32ce66af0c5588e911611.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/bindings-9281d6db919eb25fa0d64cb531ea1c9a.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/bindings-d9b96a4247825aec8b1b6ff8b0f0153b.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/19128af4433424a4_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/2000eba0866d5a72_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/7bd38cc0a60819d3_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/7c0f56587112a3e1_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/859b0b7bab9b647b_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/91e900bc147af8d4_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/93997f2554628791_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/abf125227b57c97b_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/d87c232d3dc0d987_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/df137110d5d77f5e_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/df528c283c091709_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/ec8ad0c7df7d828e_0
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/index
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/js/index-dir/the-real-index
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/wasm/index
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/chrome/wasm/index-dir/the-real-index
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/clone-571f9a6f7383817d2a243e414c25c636.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/clone-9d36a17c8702adfead228cc63b2ac044.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/clone-f69aa127b1498c91acfee23f90f0bdcc.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/common-10a61b55937a386fd9de63b1e06a06ea.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/common-a73c15c5c06aadf6cec1a4dd8e5a1eab.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/compile-4f0d37d1ceee3fd696112ab58405339c.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/constants-384e24e84ff975e11b9d75180e05a538.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/constants-7532ce216d793f1934b4975048b9b8c6.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/constants-83fe155c209d35383ac2ddf89fd0bb3b.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/constants-ceaaa7eceb28e44dd4d45c9dadb3f414.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/dynamicproto-js-743a5464792a9770b4a00d0e8f095675.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/emmetNodeMain-c1e037aaae9f1f8b2279eb04d889d8af.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/eventEmitter2-eec472da052f59b4def6fbf7e858dfe9.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/expand-4357cbdb2dfa8bc5091e36e67f07ced8.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extension-57219c1bbc5264968a309eadc3071c5f.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extension-64a7a9dba3d12b6ac7a0b2dea07ddb2d.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extension-7a95e85e9e419d0a23f6c493a574ab85.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extension-a782969a7779810046485020620e54d7.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extension-b61ae2f40af5e8985b77c3e35b85d7af.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extension-c8ff4c269a438b5024b6b06ed7e23d46.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extensionEditingMain-223eabeb42bd6352017ffb7255d71879.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extensionHostProcess-a031b323d6f4dd8e74d1c36db366906c.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/extensionHostProcess.nls-7768164fb508b9f2d65b1ab207ab688c.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/find-made-7dbcb5438d006b77effe62c6e17382a3.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/find-made-ae994200301c0624787824fc3c44865c.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/find-made-c5018eafb10f4fb15e0b1775298450b5.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/graceful-fs-4a9933dc02723b2fc789b44522a4dcb0.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/graceful-fs-63714f11d7ff12baf5b5c35d03f95f0c.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/graceful-fs-dcaccedba36d18c7af64c13647595ff0.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/helpers-3424f51eeb04858917ec5382ae42871d.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/helpers-3fa35e9e8326e1224057357b24d971ef.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/helpers-d6c2caf6ca2754a44af231649699c439.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/helpers-f7d2224c548fa31290b4fe7057bbce92.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-03b6c2a6db06a1363ed9905b8a8e1e84.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-1c24404970df6b71b75447e25dff70be.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-1d9289b7f7bcc19f6cae9dd536dd58e4.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-2406ccaa04bc69352a5a9f78e7725b9f.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-26da7665aebee2b9dcb5fb4e744b5c4b.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-2803932d5918dc7eea3abb692f6d5d51.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-2952976432b500bfadecc293c3fd8ef6.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-38264c37d3a100d2856512429bf1bb78.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-384b5a5f13ec41d1a654496b3eb88528.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-3c7bb5c35bbfbf37a1737cf0448aef82.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-42c0467a980edb00d7f2187251a68fff.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-4c6506d592b32d39ba9223dca73b75ef.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-52f6be016bec015165fbdfef9dd2c288.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-5d9aa5e7c568ff2a77575d32424c6030.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-62a9d60f3331094c1cec3208f85f1809.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-6d67b0f8368e5819a8a6487e75e72c9f.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-728e107ae8866620e8315916068d7cf1.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-74d374f8ae09f210c70af1eb479b04cd.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-78bc8dbac2e4a2763efadbaf123c9abe.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-7b57717c572cd9688a4e74e84fa1ed00.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-7dc2282ae91132f4dbc738fffe1fc3cf.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-7e67b7852e0101404438e42434acfd93.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-8538edf62d9d802be1f1a093e7881fdb.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-8c2024e4d98865828f1c756f2c08ba4f.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-8fc64a0b13b67ebfac6faf7f4ad6e4b5.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-901079a9e47fe1169bf72b99a9a84460.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-95d29c0e45de7ae649609ed20fb1a8fb.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-a53792e16544155797388f77fbaa4917.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-ab41d8b52403edd6d3bdcdb339f01aa0.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-b4119144310392f2503cb52b67306d50.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-bc58d097262f5df22565fc4a8bc22e14.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-ce6d2c8ce250a91cae296d6371d4fbae.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-d2eb7070720f33a8f25f0c96ecfdb5a5.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-d86cd5b7bc6a9cd55646610d503574e4.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-d9350d6c2caeccb0c56df6c39d0b4168.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-dd85196b3e8d1b6f9a544991825d0e79.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-dffd95cf32c6ed65ab5cb44ce9f74edf.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-e667e358d830bfe7574783e05bb503d0.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-e877d70d755ed0a5a96390cbb54f67e6.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-f5aaf2b4980f0b9f6c19532b009cb98c.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/index-fde6cc16596ac4d0a3ef22298a564ce9.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/ip-7b1559c184978d78de94bfc5a33f253e.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/ip-a76a6da51890a51a6f62a5e1ab7d8cee.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/legacy-streams-082d5897e833e9888dc396e8e341f4a4.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/legacy-streams-afbd7fc96d61c15e36d9d49badce65ad.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/legacy-streams-ffc9c45c7a3c7a5f66c3542162a431c9.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/main-737d74422f904e2d10bd10c8f9f9dadf.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/main-e0c681de37499aad1437c3d712af4e2a.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/main.nls-696ee015236ce79fa55acd596af11809.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/mergeConflictMain-8c7a2400a75b0fb614e85bcd76cc6a94.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/mkdirp-manual-07d91bce44d85ad181e8d9db57f8a819.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/mkdirp-manual-6200d355e96dadacf67cdd7ea24322ae.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/mkdirp-manual-f569e14e90febfb4a8905220187b93bc.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/mkdirp-native-0b7d93975090c1bcd0a412bfafbdd095.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/mkdirp-native-8f1d400b1d8e6ce3c32fe46b3fd03bc6.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/mkdirp-native-ccc364757732946cd55e6a706c76d4e6.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/ms.core-9a1820dfd1f409da77391831168b13fc.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/ms.post-7603f8bc67bd86f6719fa5af5146d492.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/node-45a68d5e8bf132e36b9d54a8b6a7847f.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/node-bd027a83dcecec368435ab79debd54be.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/npmMain-e00d99a8e7f1e03a9deabf3eef665d75.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/opts-arg-0793851a1faf4971257c0f8d416cb7ff.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/opts-arg-461c3c28d9957018c6fa6814eec98834.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/opts-arg-e43b2ae06ba6e790567f40d8ab692e10.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/parse-53b8fdd383656baf00febdbb68d7f088.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/parse-b13df327eeeee40ef5ea9e877a66959a.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/parse-proxy-response-07fbc171f19522ad563bb492cbe0d07a.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/parse-proxy-response-fb0d1f0f1717a352459da6ccc18780b7.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/path-arg-6bcb5304924d8d31ef219e4abc9243c7.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/path-arg-a2a61e16f2f999a591ccba81e90e0a1e.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/path-arg-e0703dfae0103b990faef51d4e9f6823.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/picomatch-741dcf3322605610db8a54923d96d973.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/polyfills-03c8579ef46e213276ce1a9216ee87ce.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/polyfills-1576077b918971da494261ac7b2db3ce.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/polyfills-822264397aa1812ba62f0015d28bfa7a.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/ptyHostMain-203f048ba87ae431cb2ca95cfc2d2835.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/ptyHostMain.nls-0494fdb07a4ecb754c3db1cf1e73e8de.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/receivebuffer-83a1041eab1c7caabd93956d9aaf9560.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/receivebuffer-fd6d8f59e586cbdda4ca1cffee5383cc.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/scan-50c099fd9fdf9b9fd0a6c2687c7bca77.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/sharedProcessMain-5f62a2546dde7eb1aeac31d0b1e400cf.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/sharedProcessMain.nls-b403bb7b9a2436856e1771568e977dd8.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/smartbuffer-0cad4cc2ab4d3b616a6635f9b07d4e33.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/smartbuffer-df0e42f173d071666e8779db620207e4.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/socksclient-19bc729ed038575b29aa446bbe57a012.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/socksclient-6daf6e094d51735e6d0e848db1c8c972.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/sqlite3-983ada63850e31a7caced992d410a2f8.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/sqlite3-binding-35010f82a49b7e569e1b90538d5efe4a.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/stringify-b8739d078918975c75998e93e66a202e.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/terminal-777a39a2dca1701b99f0a9ee1231e993.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/unixTerminal-fc570fa5c0526142745483e1642e6801.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/use-native-4d1820b2502b0c1533cf6d3d5607923a.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/use-native-a8c9c485e0f768e248e4216b82fd6b6b.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/use-native-f1745001f3f0ea10a5cb55f57c640706.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/util-22485050cd72a72d43b4d07ec4d80b77.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/util-e3b048ad45bffee6cb89a950194cc364.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/utils-c231107a920a80b975eaf5fa996ecaeb.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/utils-c4be5a90844e74aab6cdc2ba19649cfb.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/utils-c9a27e2cee0925f2925c4bd614cebd86.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/utils-d57aa6add6877491016c1ca1f4008ca6.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/utils-eb7095ac0782725911a2f65ca86cdb41.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/watcherMain-26f4c0054c26f39fada2d69ea19f4e89.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/watcherMain.nls-af6e793890f93789156f4ebba34eb60d.code
+#	new file:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/xterm-headless-64438991645415977d58e42b56663418.code
+#	new file:   ~/root/CachedProfilesData/__default__profile__/extensions.builtin.cache
+#	new file:   ~/root/CachedProfilesData/__default__profile__/extensions.user.cache
+#	new file:   ~/root/Code Cache/js/index
+#	new file:   ~/root/Code Cache/js/index-dir/the-real-index
+#	new file:   ~/root/Code Cache/wasm/index
+#	new file:   ~/root/Code Cache/wasm/index-dir/the-real-index
+#	new file:   ~/root/Cookies
+#	new file:   ~/root/Cookies-journal
+#	new file:   ~/root/Crashpad/client_id
+#	new file:   ~/root/Crashpad/settings.dat
+#	new file:   ~/root/DawnCache/data_0
+#	new file:   ~/root/DawnCache/data_1
+#	new file:   ~/root/DawnCache/data_2
+#	new file:   ~/root/DawnCache/data_3
+#	new file:   ~/root/DawnCache/index
+#	new file:   ~/root/GPUCache/data_0
+#	new file:   ~/root/GPUCache/data_1
+#	new file:   ~/root/GPUCache/data_2
+#	new file:   ~/root/GPUCache/data_3
+#	new file:   ~/root/GPUCache/index
+#	new file:   ~/root/Local Storage/leveldb/000003.log
+#	new file:   ~/root/Local Storage/leveldb/CURRENT
+#	new file:   ~/root/Local Storage/leveldb/LOCK
+#	new file:   ~/root/Local Storage/leveldb/LOG
+#	new file:   ~/root/Local Storage/leveldb/MANIFEST-000001
+#	new file:   ~/root/Network Persistent State
+#	new file:   ~/root/Preferences
+#	new file:   ~/root/Service Worker/CacheStorage/8bfd21df46a08c6fcdcf2a98c9161a2d1fbeaa97/a5100008-f994-4a84-b241-aa4d34080d0c/321292d8253436f8_0
+#	new file:   ~/root/Service Worker/CacheStorage/8bfd21df46a08c6fcdcf2a98c9161a2d1fbeaa97/a5100008-f994-4a84-b241-aa4d34080d0c/5343548a9b990e86_0
+#	new file:   ~/root/Service Worker/CacheStorage/8bfd21df46a08c6fcdcf2a98c9161a2d1fbeaa97/a5100008-f994-4a84-b241-aa4d34080d0c/c141fe53dbbb003b_0
+#	new file:   ~/root/Service Worker/CacheStorage/8bfd21df46a08c6fcdcf2a98c9161a2d1fbeaa97/a5100008-f994-4a84-b241-aa4d34080d0c/c85a612346a50a6e_0
+#	new file:   ~/root/Service Worker/CacheStorage/8bfd21df46a08c6fcdcf2a98c9161a2d1fbeaa97/a5100008-f994-4a84-b241-aa4d34080d0c/index
+#	new file:   ~/root/Service Worker/CacheStorage/8bfd21df46a08c6fcdcf2a98c9161a2d1fbeaa97/a5100008-f994-4a84-b241-aa4d34080d0c/index-dir/the-real-index
+#	new file:   ~/root/Service Worker/CacheStorage/8bfd21df46a08c6fcdcf2a98c9161a2d1fbeaa97/index.txt
+#	new file:   ~/root/Service Worker/Database/000003.log
+#	new file:   ~/root/Service Worker/Database/CURRENT
+#	new file:   ~/root/Service Worker/Database/LOCK
+#	new file:   ~/root/Service Worker/Database/LOG
+#	new file:   ~/root/Service Worker/Database/MANIFEST-000001
+#	new file:   ~/root/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+#	new file:   ~/root/Service Worker/ScriptCache/2cc80dabc69f58b6_1
+#	new file:   ~/root/Service Worker/ScriptCache/index
+#	new file:   ~/root/Service Worker/ScriptCache/index-dir/the-real-index
+#	new file:   ~/root/TransportSecurity
+#	new file:   ~/root/User/globalStorage/state.vscdb
+#	new file:   ~/root/User/globalStorage/storage.json
+#	new file:   ~/root/User/workspaceStorage/1706519604753/state.vscdb
+#	new file:   ~/root/User/workspaceStorage/4ff8bec2589fd45deac1a2bb953be8ad/state.vscdb
+#	new file:   ~/root/User/workspaceStorage/4ff8bec2589fd45deac1a2bb953be8ad/workspace.json
+#	new file:   ~/root/WebStorage/QuotaManager
+#	new file:   ~/root/WebStorage/QuotaManager-journal
+#	new file:   ~/root/code.lock
+#	new file:   ~/root/databases/Databases.db
+#	new file:   ~/root/databases/Databases.db-journal
+#	new file:   ~/root/languagepacks.json
+#	new file:   ~/root/logs/20240129T144324/editSessions.log
+#	new file:   ~/root/logs/20240129T144324/main.log
+#	new file:   ~/root/logs/20240129T144324/network.log
+#	new file:   ~/root/logs/20240129T144324/ptyhost.log
+#	new file:   ~/root/logs/20240129T144324/remoteTunnelService.log
+#	new file:   ~/root/logs/20240129T144324/sharedprocess.log
+#	new file:   ~/root/logs/20240129T144324/telemetry.log
+#	new file:   ~/root/logs/20240129T144324/terminal.log
+#	new file:   ~/root/logs/20240129T144324/userDataSync.log
+#	new file:   ~/root/logs/20240129T144324/window1/exthost/extensionTelemetry.log
+#	new file:   ~/root/logs/20240129T144324/window1/exthost/exthost.log
+#	new file:   ~/root/logs/20240129T144324/window1/exthost/vscode.git/Git.log
+#	new file:   ~/root/logs/20240129T144324/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   ~/root/logs/20240129T144324/window1/exthost/vscode.github/GitHub.log
+#	new file:   ~/root/logs/20240129T144324/window1/network.log
+#	new file:   ~/root/logs/20240129T144324/window1/notebook.rendering.log
+#	new file:   ~/root/logs/20240129T144324/window1/output_20240129T144325/tasks.log
+#	new file:   ~/root/logs/20240129T144324/window1/output_20240129T144347/tasks.log
+#	new file:   ~/root/logs/20240129T144324/window1/renderer.log
+#	new file:   ~/root/logs/20240129T144324/window1/views.log
+#	new file:   ~/root/machineid
+#
+# Changes not staged for commit:
+#	modified:   ~/root/Cache/Cache_Data/index-dir/the-real-index
+#	modified:   ~/root/CachedData/8b3775030ed1a69b13e4f4c628c612102e30a681/main-e0c681de37499aad1437c3d712af4e2a.code
+#	modified:   ~/root/TransportSecurity
+#	modified:   ~/root/User/globalStorage/state.vscdb
+#	modified:   ~/root/User/globalStorage/storage.json
+#	modified:   ~/root/User/workspaceStorage/4ff8bec2589fd45deac1a2bb953be8ad/state.vscdb
+#	modified:   ~/root/logs/20240129T144324/network.log
+#	modified:   ~/root/logs/20240129T144324/window1/exthost/vscode.git/Git.log
+#
+# Untracked files:
+#	~/root/User/History/
+#
