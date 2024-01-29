@@ -1,2 +1,3 @@
-2024/01/29-14:43:24.191 c375 Creating DB /root/example2/~/root/Local Storage/leveldb since it was missing.
-2024/01/29-14:43:24.199 c375 Reusing MANIFEST /root/example2/~/root/Local Storage/leveldb/MANIFEST-000001
+2024/01/29-16:00:52.673 d0fb Reusing MANIFEST /root/example2/~/root/Local Storage/leveldb/MANIFEST-000001
+2024/01/29-16:00:52.673 d0fb Recovering log #3
+2024/01/29-16:00:52.673 d0fb Reusing old log /root/example2/~/root/Local Storage/leveldb/000003.log 

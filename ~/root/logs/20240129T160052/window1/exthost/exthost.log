@@ -1,0 +1,10 @@
+2024-01-29 16:00:53.921 [info] Extension host with pid 53611 started
+2024-01-29 16:00:53.921 [info] Skipping acquiring lock for /root/example2/~/root/User/workspaceStorage/4ff8bec2589fd45deac1a2bb953be8ad.
+2024-01-29 16:00:54.066 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-29 16:00:54.069 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-01-29 16:00:54.110 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-29 16:00:54.149 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-29 16:00:54.274 [info] Eager extensions activated
+2024-01-29 16:00:54.287 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 16:00:54.290 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 16:00:54.453 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
