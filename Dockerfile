@@ -1,38 +1,49 @@
-# Make sure it matches the Ruby version in .ruby-version and Gemfile
-ARG RUBY_VERSION=3.3.0
-FROM ruby:$RUBY_VERSION
+# Use an official Ruby runtime as a parent image
+FROM ruby:2.7.4
 
-# Install libvips for Active Storage preview support
-RUN apt-get update -qq && \
-    apt-get install -y build-essential libvips && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /usr/share/doc /usr/share/man
+# Set the working directory in the container
+WORKDIR /usr/src/app
 
-# Rails app lives here
-WORKDIR /rails
-
-# Set production environment
-ENV RAILS_LOG_TO_STDOUT="1" \
-    RAILS_SERVE_STATIC_FILES="true" \
-    RAILS_ENV="production" \
-    BUNDLE_WITHOUT="development"
-
-# Install application gems
+# Copy the Gemfile and Gemfile.lock into the container
 COPY Gemfile Gemfile.lock ./
+
+# Install Ruby dependencies
 RUN bundle install
 
-# Copy application code
+# Copy the main application into the container
 COPY . .
 
-# Precompile bootsnap code for faster boot times
-RUN bundle exec bootsnap precompile --gemfile app/ lib/
+# Install nodejs and yarn for asset compilation
+RUN apt-get update && \
+    apt-get install -y nodejs yarn && \
+    rm -rf /var/lib/apt/lists/*
 
-# Precompiling assets for production without requiring secret RAILS_MASTER_KEY
-# RUN SECRET_KEY_BASE_DUMMY=1 bundle exec rails assets:precompile
+# Set the environment variable for Rails to production
+ENV RAILS_ENV=production
 
-# Entrypoint prepares the database.
-ENTRYPOINT ["bin/docker-entrypoint"]
+# Precompile assets
+# RUN bundle exec rake assets:precompile
 
-# Start the server by default, this can be overwritten at runtime
+# Run database migrations
+RUN bundle exec rake db:migrate
+
+# Copy credentials file into the container
+COPY config/master.key config/
+
+# Expose port 3000 to the outside world
 EXPOSE 3000
-CMD ["./bin/rails", "server"]
+
+# Start the application
+CMD ["rails", "server", "-b", "0.0.0.0"]
+
+
+
+
+
+
+
+
+
+
+
+
