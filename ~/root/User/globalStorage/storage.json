@@ -4,19 +4,30 @@
         "workspaces": {
             "file:///root/example2": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1706595501208": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "d82a0cf990b2480cc95bbda7a79c95012e1c1aab181739dcd9571dd4c4c7c043",
     "backupWorkspaces": {
-        "workspaces": [],
+        "workspaces": [
+            {
+                "id": "5dfa07f2b6d04b8b044c33ea4f249c0f",
+                "configURIPath": "file:///root/example2/~/root/Workspaces/1706595540038/workspace.json"
+            }
+        ],
         "folders": [
             {
                 "folderUri": "file:///root/example2"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1706595501208"
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -271,7 +282,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1700,16 +1711,45 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///root/example2",
-            "backupPath": "/root/example2/~/root/Backups/35a3e53a80b7147c6d4c8f9a2593f914",
+            "workspaceIdentifier": {
+                "id": "5dfa07f2b6d04b8b044c33ea4f249c0f",
+                "configURIPath": "file:///root/example2/~/root/Workspaces/1706595540038/workspace.json"
+            },
+            "backupPath": "/root/example2/~/root/Backups/5dfa07f2b6d04b8b044c33ea4f249c0f",
             "uiState": {
-                "mode": 0,
-                "x": 38,
-                "y": 59,
+                "mode": 1,
+                "x": 454,
+                "y": 183,
                 "width": 1024,
                 "height": 768
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///root/example2",
+                "backupPath": "/root/example2/~/root/Backups/35a3e53a80b7147c6d4c8f9a2593f914",
+                "uiState": {
+                    "mode": 0,
+                    "x": 38,
+                    "y": 59,
+                    "width": 1024,
+                    "height": 768
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "5dfa07f2b6d04b8b044c33ea4f249c0f",
+                    "configURIPath": "file:///root/example2/~/root/Workspaces/1706595540038/workspace.json"
+                },
+                "backupPath": "/root/example2/~/root/Backups/5dfa07f2b6d04b8b044c33ea4f249c0f",
+                "uiState": {
+                    "mode": 1,
+                    "x": 454,
+                    "y": 183,
+                    "width": 1024,
+                    "height": 768
+                }
+            }
+        ]
     }
 }

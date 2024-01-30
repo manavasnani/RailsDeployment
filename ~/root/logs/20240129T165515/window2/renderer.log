@@ -1,0 +1,7 @@
+2024-01-30 11:48:21.786 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-01-30 11:48:22.103 [info] Started local extension host with pid 68730.
+2024-01-30 11:48:25.103 [info] [perf] Render performance baseline is 23ms
+2024-01-30 11:49:00.042 [info] Started local extension host with pid 68906.
+2024-01-30 11:49:00.675 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at b.f (vscode-file://vscode-app/snap/code/149/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1687:11513)
+    at o.value (vscode-file://vscode-app/snap/code/149/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1687:11334)
